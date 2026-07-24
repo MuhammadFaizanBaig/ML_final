@@ -81,7 +81,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ==========================================
-# 🚀 TOP NAVIGATION BAR (No Logout Button)
+# 🚀 TOP NAVIGATION BAR
 # ==========================================
 nav_brand, nav_items = st.columns([2, 2.5])
 
@@ -94,7 +94,7 @@ with nav_items:
         st.button("Home", type="primary", use_container_width=True)
     with c2:
         if st.button("Dashboard", use_container_width=True):
-            st.switch_page("pages/1_Dashboard.py") # Agar yeh crash kare, to exact relative path istemal karein:
+            st.switch_page("pages/1_Dashboard.py")
     with c3:
         if st.button("Model Battle", use_container_width=True):
             st.switch_page("pages/2_Model_Battle.py")

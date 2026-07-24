@@ -81,7 +81,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ==========================================
-# 🚀 TOP NAVIGATION BAR (No Logout Button)
+# 🚀 TOP NAVIGATION BAR
 # ==========================================
 nav_brand, nav_items = st.columns([2, 2.5])
 
